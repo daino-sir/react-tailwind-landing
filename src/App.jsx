@@ -1,10 +1,10 @@
-import Navbar from "./Components/Navbar/Navbar";
 
 export default function App() {
   return (
-    <div className="w-screen h-screen">
-      <Navbar/>
-    </div>
+    <>
+    {/* import and add your Components here */}
+    { /* Caution: Do not replace the fragments with a div, will result in a horizontal scroll */ }    
+    </>
   );
 }
 
