@@ -2,23 +2,23 @@ import { Link } from "react-router-dom";
 
 export default function Navbar() {
     return (
-        <header>
+    <header>
     <div class="bg-gray-100 border-b border-gray-200">
         <div class="px-4 mx-auto sm:px-6 lg:px-8">
             <nav class="relative flex items-center justify-between h-16 lg:h-20">
                 <div class="hidden lg:flex lg:items-center lg:space-x-10">
-                    <Link title="" class="text-base font-medium text-black"> Features </Link>
+                <Link to={'/'} class="text-base font-medium text-black"> Features </Link>
 
-                    <Link title="" class="text-base font-medium text-black"> Solutions </Link>
+                <Link to={'/'} class="text-base font-medium text-black"> Solutions </Link>
 
-                    <Link title="" class="text-base font-medium text-black"> Resources </Link>
+                <Link to={'/'} class="text-base font-medium text-black"> Resources </Link>
 
-                    <Link title="" class="text-base font-medium text-black"> Pricing </Link>
+                <Link to={'/'} class="text-base font-medium text-black"> Pricing </Link>
                 </div>
 
                 <div class="lg:absolute lg:-translate-x-1/2 lg:inset-y-5 lg:left-1/2">
                     <div class="flex-shrink-0">
-                        <Link href="#" title="" class="flex">
+                        <Link to={''} class="flex">
                             <img class="w-auto h-8 lg:h-10" src="https://cdn.rareblocks.xyz/collection/celebration/images/logo.svg" alt="" />
                         </Link>
                     </div>

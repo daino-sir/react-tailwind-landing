@@ -1,7 +1,6 @@
-import Navbar from "./Pages/Home/Navbar";
+import Navbar from "./Components/Navbar/Navbar";
 
-
-function App() {
+export default function App() {
   return (
     <div className="w-screen h-screen">
       <Navbar/>
@@ -9,4 +8,3 @@ function App() {
   );
 }
 
-export default App;
